@@ -1,0 +1,239 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+ 
+}
+.navbar{
+    background-color: black;
+    display: flex;
+}
+.nav{
+    position:fixed;
+     width: 100%;
+     z-index: 1;
+}
+a:hover{
+    color: black;
+    background-color: lightgray;
+}
+a{
+    text-decoration: none;
+    padding: 10px;
+    font-size:medium;
+    color: white;
+   justify-content: space-evenly;
+   width: 25%;
+   text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+}
+.con1{
+    width: 100%;
+}
+img{
+    width: 100%;
+    height: 80vh;
+}
+.text-1{
+    position: absolute;
+    top:20%;
+    left: 40%;
+    color: white;
+    font-size:80px;
+    
+    
+}
+.text-1 h1{
+    color: white;
+    font-size:80px;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.text-2{
+    position: absolute;
+    background-color:  black;
+    color: aliceblue;
+    display: inline-block;
+    padding: 5px;
+    top:70%;
+    left: 2%;
+    font-weight: bolder;
+     font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    
+}
+.text-3{
+    display:inline-block;
+    position:absolute;
+    color:white;
+    top:70%;
+    right: 2%;
+    font-weight: bolder;
+    background-color: black;
+     font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.con2,.con3,.con4,.con5 {
+    background-color: black;
+    color:white;
+    display: inline-block;
+    padding: 7px;
+    margin: 50px;
+    margin-left: 45%;
+    
+    
+}
+.text-4{
+     display: inline-block;
+    padding: 5px;
+    margin: 10px 300px;
+    font-family:cursive;
+    letter-spacing: 2px;
+    
+   
+}
+.imp{
+     display: inline-block;
+    padding: 20px;
+    margin: 10px 320px;
+    letter-spacing: 1.5px;
+    font-weight: bold;
+    font-family:sans-serif;
+    background-color:hwb(191 85% 5%);
+    border-left: 6px solid gray;
+
+}
+.img2,.img4{
+    width:60%;
+    margin: 30px 20%;
+
+}
+.img2>p{
+    letter-spacing: 2px;
+    padding: 10px;
+     padding-top: 20px;
+}
+label {
+  display: inline-block;
+  padding: 10px 20px;
+  background: #ddd;
+  font-weight: bold;
+  cursor: pointer;
+  
+  
+}
+.menu{
+ width: 50%;
+  margin:50px auto;
+  background: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 5px;
+  position: relative;
+}
+
+.tabs{
+  display: flex;
+  margin-bottom: 10px;
+}
+.tab {
+  flex: 1;
+  padding: 10px;
+  text-align: center;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s  ease;
+  
+  border: 1px solid #ccc;
+}
+
+#Eat:checked ~ .tabs label[for="Eat"] {
+  background: black;
+  color: white;
+}
+
+#Drink:checked ~ .tabs label[for="Drink"] {
+  background: black;
+  color: white;
+}
+
+#Eat:checked~.paraeat{
+    display: block;
+}
+#Drink:checked~.paradrink{
+    display: block;
+}
+
+.paraeat,.paradrink{
+    display: none;
+}
+#Eat,#Drink{
+    display: none;
+}
+.paraeat,.paradrink{
+    padding-top: 10px;
+    word-spacing: 3px;
+    letter-spacing: 1px;
+    line-height: 30px;
+}
+
+.par{
+    margin-left: 310px;
+    font-size: x-large;
+}
+.las{
+    display: flex;
+    justify-content: center;
+}
+.lasimg{
+    width: 60%;
+    height: 500px;
+}
+
+
+.first{
+    width: fit-content;
+    height: fit-content;
+    background-color: black;
+    color: white;
+}
+.pe{
+    display: flex;
+    justify-content: center;
+    font-size: large;
+}
+.contact{
+    display: flex;
+    justify-content: center;
+    font-size: larger;
+}
+.forms{
+    display: contents;
+    justify-content: center;
+    padding: 50px;
+}
+.name{
+    width: 50%;
+    height: 30px;
+    margin-left: 350px;
+    padding: 25px;
+    margin-bottom: 20PX;
+
+}
+.button{
+    display: flex;
+    justify-content: center;
+}
+.but{
+     display: flex;
+    justify-content: center;
+    margin-right: 30%;
+}
+
+.button{
+    background-color: black;
+    padding: 7px;
+    color: white;
+    margin-left: 0;
+}
